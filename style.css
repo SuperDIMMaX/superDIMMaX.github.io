@@ -178,11 +178,7 @@ body {
 	padding: 1px;
 }
 .clients {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
 	padding: 0px;
-	min-height: 500px;
 }
 .section {
   position: relative;
@@ -342,3 +338,7 @@ body {
 	color: #FFF;
 	font-size: xx-large;
 }
+
+
+
+
