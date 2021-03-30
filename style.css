@@ -312,6 +312,9 @@ body {
 	color: #FFF;
 	font-size: xx-large;
 	padding: 0px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-color: #000;
 }
 .hrt_clients {
 	background-color: #000000b3;
@@ -340,6 +343,9 @@ body {
 	line-height: 4em;
 	color: #FFF;
 	font-size: xx-large;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-color: #000;
 }
 
 
