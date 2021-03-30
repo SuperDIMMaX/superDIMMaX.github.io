@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link href="style.css" rel="stylesheet" />
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+	<div class="container">
+		<section class="menu">
+			<a href="#about">О нас</a>
+			<a href="#price">Прайс</a>
+			<a href="#clients">Работы</a>
+			<a href="#contacts">Связаться</a>
+		</section>
+		
+		<section class="about" id="about">
+			<div class="hrt_2">Электрика! Сантехника! Теплые полы! Отделочные работы!</div>
+			<table class="about_line">
+			<tr class="t1">
+			<td><img class="img_about" src="img/atkritka_1358461783_195.jpg"></td><td class="about_text">Низкие цены!</td>
+			</tr>
+			<tr class="t2">
+			<td class="about_text">Высокое качество!</td><td><img class="img_about" src="img/atkritka_1374084434_500.jpg"></td>
+			</tr>
+			<tr class="t3">
+			<td><img class="img_about" src="img/atkritka_1385411464_773.jpg"></td><td class="about_text">Большой опыт работы!</td>
+			</tr>
+			</table>
+			
+		</section>
+		
+		<section id="price">
+			<div class="hrt_2">Наши цены</div>
+			<div class="tab">
+			  <button class="tablinks active" onclick="priceTabs(event, 'price_electric')">Электрика</button>
+			  <button class="tablinks" onclick="priceTabs(event, 'price_santechnic')">Сантехника</button>
+			  <button class="tablinks" onclick="priceTabs(event, 'price_otoplenie')">Отопление</button>
+			  <button class="tablinks" onclick="priceTabs(event, 'price_prochee')">Другие работы</button>
+			</div>
+			<div id="price_electric" class="tabcontent">
+				<table class="table">
+				<tbody class="pricetable" id="Электрика"></tbody>
+				</table>
+			</div>
+			<div id="price_santechnic" class="tabcontent" style="display: none;">
+				<table class="table">
+				<tbody class="pricetable" id="Сантехника"></tbody>
+				</table>
+			</div>
+			<div id="price_otoplenie" class="tabcontent" style="display: none;">
+				<table class="table">
+				<tbody class="pricetable" id="Отопление"></tbody>
+				</table>
+			</div>
+			<div id="price_prochee" class="tabcontent" style="display: none;">
+				<table class="table">
+				<tbody class="pricetable" id="Другие работы"></tbody>
+				</table>
+			</div>
+			
+		</section>
+
+		<section class="clients" id="clients">
+			<div class="hrt_2">Наши работы</div>
+			<div class="clients__layer clients--back">
+				<div class="title">This is the background</div>
+			</div>
+			<div class="clients__layer clients--base">
+				<div class="title">
+					<p>ГК Нижегородец</p>
+					<p>Очень довольны :)</p>
+				</div>
+			</div>
+		</section>
+		
+		
+		<section class="container contacts" id="contacts">
+			<div class="hrt_contacts"></div>
+			<div class="footer"></div>
+			<a class="call" href="tel:123-456-7890"><p><img class="img_button" src="img/call.gif"><b class="button_b">Позвонить: 123-456-7890</b></p></a>
+			<p></p>
+			<a class="mail" href="mailto:superDIMMaX@mail.ru"><p><img class="img_button" src="img/email_1.gif"><b class="button_b">Почта: superDIMMaX@mail.ru</b></p></a>
+			<div class="footer"></div>
+		</section>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script>
+	</script>
+</body>
+</html>
