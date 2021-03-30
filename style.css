@@ -1,5 +1,4 @@
 html {
-    scroll-behavior: smooth;
 	font-family: arial;
 	padding: 0px;
 }
@@ -109,6 +108,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-blend-mode: color;
+	-webkit-perspective: 1px;
+	perspective: 1px;
 }
 #menu_wraper {
 	width: 100%;
@@ -130,6 +131,18 @@ body {
 .menu a:hover{
 	text-decoration: underline !important;
 }
+
+.menu_top {
+	position: fixed;
+	width: 100%;
+	background-color: #0000;
+	background-blend-mode: normal;
+	background-image: none;
+}
+.menu_top a{
+	line-height: 2em;
+}
+
 .about {
 
 }
@@ -162,8 +175,6 @@ body {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
-    -webkit-perspective: 1px;
-	perspective: 1px;
 	padding: 0px;
 	min-height: 500px;
 }
