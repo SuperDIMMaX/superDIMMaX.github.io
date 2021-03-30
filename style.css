@@ -113,6 +113,8 @@ body {
 	background-blend-mode: color;
 	-webkit-perspective: 1px;
 	perspective: 1px;
+	z-index: 2;
+	position: relative;
 }
 #menu_wraper {
 	width: 100%;
@@ -147,6 +149,7 @@ body {
 }
 .menu_top a{
 	line-height: 2em;
+	z-index: 1;
 }
 
 .about {
