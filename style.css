@@ -101,13 +101,27 @@ body {
 
 .menu {
 	display: flex;
+	background-color: #000000c2;
+	background-blend-mode: color;
+	background-image: url("img/000003.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode: color;
+}
+#menu_wraper {
+	width: 100%;
+	display: flex;
+	margin-bottom: 5px;
+	box-shadow: 0px 0px 4px 4px #000;
+	background-blend-mode: color;
 	background-color: #111;
 }
-
 .menu a{
 	display: block;
     width: 100%;
-    line-height: 10em;
+    line-height: 6em;
     height: 100%;
 	font-size: 1.2em;
 	text-decoration: none !important;
