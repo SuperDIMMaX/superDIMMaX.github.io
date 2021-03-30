@@ -74,7 +74,7 @@ $('.container').each(function() {
     var $element = $(this);
     // subtract some from the height b/c of the padding
     var height = $element.width();
-    $(this).css('backgroundPosition', '70%' + '' + Math.round( scrollPercent*5 +10)+'%'); 
+    $(this).css('backgroundPosition', '70%' + '' + Math.round( scrollPercent*5 +60)+'%'); 
    }); 
    };
  $(window).bind('scroll', update);
