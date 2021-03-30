@@ -325,7 +325,6 @@ body {
 }
 .hrt_contacts {
 	background-color: #000000b3;
-	height: 2em;
 	display: inline-block;
 	width: 100%;
 	/* background-image: url("img/contact-us-1-1999x1200.jpg"); */
@@ -334,4 +333,9 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-blend-mode: color;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 4em;
+	color: #FFF;
+	font-size: xx-large;
 }
