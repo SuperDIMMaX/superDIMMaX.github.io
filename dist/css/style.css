@@ -114,6 +114,7 @@ html {
 }
 .nav_m_sh a{
 	text-decoration: none;
+	color: white;
 }
 .nav_m_sh a:hover{
 	text-decoration: none;
@@ -1880,7 +1881,7 @@ label {
 }
 
 .boxed-container {
-	max-width: 1440px;
+	max-width: 1300px;
 	margin: 0 auto;
 	box-shadow: 0 20px 48px rgba(22, 30, 42, 0.16)
 }
