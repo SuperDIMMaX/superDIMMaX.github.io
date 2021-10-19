@@ -1,3 +1,29 @@
+.NameHighlights {
+    position:relative;
+	display: inline;
+}
+.NameHighlights div {
+    display: none;
+}
+.NameHighlightsHover {
+    position:relative;
+	display: inline;
+}
+.NameHighlightsHover div {
+    display:block;
+    position:fixed;
+    width: 15em;
+    top:-1.3em;
+    *top:20px;
+    left:-20px;
+    z-index:999999999 !important;
+    background-color: #DDD;
+    padding: 0px 0px 0px 0px;
+    border-radius: 4px;
+	transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+
+
 .square {
     /* width: 200px; */
     /* height: 200px; */
