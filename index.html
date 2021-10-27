@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="dist/css/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
 </head>
-<body class="is-boxed has-animations">
+<body class="is-boxed has-animations" id="Main">
 	
 	<div class="nav_m">
 		<div class="nav_m_bg">
@@ -21,7 +21,10 @@
 		<div class="m_m_l" id="nav_m" style="display:none;">
 			<nav class="nav_m_menu_li">
 				<ul>
-				<li>Главная</li><li>Наши клиенты</li><li>Наша продукция</li><li>Контакты</li>
+				<li><a href="#About">О нас</a></li>
+				<li><a href="#Production">Наша продукция</a></li>
+				<li><a href="#Clients">Наши клиенты</a></li>
+				<li><a href="#Contacts">Контакты</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -37,16 +40,15 @@
 				<nav class="navigation">
 				<ul class="ul_nav">
 					<li class="li_nav li_nav_s"></li>
-					<li class="li_nav li_nav_a">Главная</li>
-					<li class="li_nav li_nav_a">Наши клиенты</li>
+					<li class="li_nav li_nav_a"><a href="#About">О нас</a></li>
+					<li class="li_nav li_nav_a"><a href="#Production">Наша продукция</a></li>
 					<li class="li_nav" style="width: 10rem;"><img src="dist/images/Stardust-logo-white.png" alt="StarDustElements" style="height: 5rem; display: inline;"></li>
-					<li class="li_nav li_nav_a">Наша продукция</li>
-					<li class="li_nav li_nav_a">Контакты</li>
+					<li class="li_nav li_nav_a"><a href="#Clients">Наши клиенты</a></li>
+					<li class="li_nav li_nav_a"><a href="#Contacts">Контакты</a></li>
 					<li class="li_nav li_nav_s"></li>
 				</ul>
 				</nav>
 				<nav  class="navigation_m">
-					
 					<div class="li_nav_m_logo"><img src="dist/images/Stardust-logo-white.png" alt="StarDustElements" style="height: 5rem; display: none;"></div>
 				</nav>
 				
@@ -60,13 +62,13 @@
                 </div>
             </section>
 
-			<section class="features-extended section">
+			<section class="features-extended section" id="About">
                 <div class="features-extended-inner section-inner">
 					<div class="features-extended-wrap">
 						<div class="container">
 							<div class="feature-extended">
 								<div class="feature-extended-image">
-									<img class="device-mockup is-revealing" src="dist/images/Stardust-periodic-table-of-elements.jpg" alt="Компания StarDustElements">
+									<img class="device-mockup is-revealing" src="dist/images/Stardust-periodic-table-display_cr3.png" alt="Компания StarDustElements">
 								</div>
 								<div class="feature-extended-body is-revealing">
 									<h3 class="mt-0 mb-16">Stardust elements предстапляет</h3>
@@ -74,12 +76,32 @@
 Это могут быть витрины для университетов, школ, научных музеев, химических компаний или коллекционеров.</p>
 								</div>
 							</div>
+							<div class="feature-extended" id="Production">
+								<div class="feature-extended-image">
+									<img class="device-mockup is-revealing" src="dist/images/Stardust-periodic-table-of-elements.jpg" alt="Инсталляция">
+								</div>
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Инсталляции для учреждений</h3>
+									<div class="m-0">У нас вы можете приобрести потрясающую инсталяцию переодической таблицы Менделеева, где представление каждой ячейки соответствует элементу.
+									Работа выполнена в уникальном стиле. Мы поместили газоразрядные лампы наполненные такими газами как Аргон, Ксенон, на соответствующие позиции, некоторые экспозиции, такие как Радий, представленны в виде старых часов на стрелки которых нанесен этот радиоактивный элемент.
+									</div>
+								</div>
+							</div>
+							</div>
+							<div class="imgs">
+								<img src="dist/images/elements/Element_88_radium.jpg" alt="Радий">
+								<img src="dist/images/elements/Element_43_technetium.jpg" alt="Технеций">
+								<img src="dist/images/elements/Element_27_cobalt.jpg" alt="Кобольд">
+							</div>
+							<div class="container">
+							<div>
+							</div>
 							<div class="feature-extended">
 								<div class="feature-extended-image">
 									<img class="device-mockup is-revealing" src="dist/images/Phosargo.png" alt="Инсталляция в ФосАгро">
 								</div>
 								<div class="feature-extended-body is-revealing">
-									<h3 class="mt-0 mb-16">ФосАгро получила </br>три инсталяции.</h3>
+									<h3 class="mt-0 mb-16">ФосАгро получила три инсталяции.</h3>
 									<p class="m-0">Инсталляция гармонично 
 вписалась в существующую 
 экспозицию череповецкого интерактивно-познавательного центра «Зелёная 
@@ -98,41 +120,25 @@
 							</div>
 							<div class="feature-extended">
 								<div class="feature-extended-image">
-									<img class="device-mockup is-revealing" src="dist/images/small.png" alt="--">
+									<img class="device-mockup is-revealing" src="dist/images/Dmitri-Mendeleev-1.jpg" alt="--">
 								</div>
 								<div class="feature-extended-body is-revealing">
-									<h3 class="mt-0 mb-16">Познавательная версия</h3>
-									<p class="m-0">Удобная версия для школ и образовательных учреждений, и просто для тех, кто хочет увидеть первозданные элементы в их естественном виде.</p>
+									<h3 class="mt-0 mb-16">Null</h3>
+									<p class="m-0">Lorem ipsum</p>
 									<div>
 									<blockquote style="margin: 20px 0px 0px 0px;font-size: inherit; line-height: normal; text-align: right;">Вся гордость учителя в учениках, в росте посеянных им семян.</blockquote>
 									<p style="text-align: right;font-size: smaller;">Д.И. Менделеев</p>
 									</div>
 								</div>
-							</div>
-							<div class="feature-extended">
-								<div class="feature-extended-image">
-									<img class="device-mockup is-revealing" src="dist/images/Phosargo.png" alt="Инсталляция в ФосАгро">
-								</div>
-								<div class="feature-extended-body is-revealing">
-									<h3 class="mt-0 mb-16">Инсталляции для учреждений</h3>
-									<div class="m-0">У нас вы можете приобрести потрясающую инсталяцию переодической таблицы Менделеева, где представление каждой ячейки соответствует элементу.
-									Работа выполнена в уникальном стиле. Мы поместили газоразрядные лампы наполненные такими газами как Аргон, Ксенон, на соответствующие позиции, некоторые экспозиции, такие как Радий, представленны в виде
-										<div class="NameHighlights"><a>старых часов</a>
-											<div>
-												<img src="dist/images/elements/Element_88_radium.jpg" alt="Часы с радием">
-											</div>
-										</div>, на стрелки которых нанесен этот радиоактивный элемент.
+							</div>							
+							<div class="clients" id="Clients">
+									<h3 class="mt-0 mb-16">Наши клиенты</h3>
+									<div class="clients_list">
+										<img src="dist/images/clients/phosargo.jpg" alt="">
+										<img src="dist/images/clients/jinr.png" alt="">
+										<img src="dist/images/clients/spgu.png" alt="">
+										<img src="dist/images/clients/ru.png" alt="">
 									</div>
-								</div>
-							</div>
-							<div class="feature-extended">
-								<div class="feature-extended-image">
-									<img class="device-mockup is-revealing" src="dist/images/small.png" alt="--">
-								</div>
-								<div class="feature-extended-body is-revealing">
-									<h3 class="mt-0 mb-16">Null</h3>
-									<p class="m-0">none.</p>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -140,7 +146,7 @@
             </section>
         </main>
 
-		<footer class="site-footer">
+		<footer class="site-footer NOOV"  id="Contacts">
 			<div class="footer-particles-container">
 				<canvas id="footer-particles"></canvas>
 			</div>
@@ -153,7 +159,7 @@
 								  <div class="square square-transition">
 									<img src="dist/images/Stardust-logo-white.png">
 									<div>
-									<a href="mailto:info@stardustelements.com">info@stardustelements.com</a> | The Netherlands
+									<a style="color: #ececec;" href="mailto:info@stardustelements.com">Связаться: info@stardustelements.com</a>
 									</div>
 								  </div>
 								</div>
