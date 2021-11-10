@@ -5,7 +5,9 @@
 .nav_m_menu_li ul li a{
 	color: #fff !important;
 }
-
+.t_imgs {
+	background-color: #16192c;
+}
 .NameHighlights {
     position:relative;
 	display: inline;
